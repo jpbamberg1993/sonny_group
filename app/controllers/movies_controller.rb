@@ -1,13 +1,3 @@
-# API not working
-# # require 'RMagick'
-# include Magick
-#
-# cas = ImageList.new("Cheetah.jpg")
-# smallcat = cat.minify
-# smallcat.display
-# exit
-
-
 class MoviesController < ApplicationController
   before_action :set_movie, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, except: [:index, :show] # From Devise; ensures prior to adding movie and review, user must log-in first
@@ -28,6 +18,7 @@ class MoviesController < ApplicationController
   end
 
   def create
+    @movie = Movie.new(movie_params)
     @movie = current_user.movies.build(movie_params)
 
     respond_to do |format|
