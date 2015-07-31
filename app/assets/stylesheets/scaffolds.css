@@ -18,11 +18,11 @@ pre {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 a:visited {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 a:hover {
@@ -67,16 +67,25 @@ a:hover {
 }*/
 #site-footer {
   /*border: 2px solid black;*/
-  margin: 10px;
-  height: 100px;
+  position:absolute;
+  bottom:0;
+  width:60%;
+  /*margin: 10px;*/
+  /*height: 100px;*/
   clear: both;
   text-align: center;
   padding: 15px;
   font-size: 90%;
 }
 
-
-
+#site-footer ul li {
+  display: inline;
+}
+#site-footer ul li a {
+  text-decoration: none;
+  padding: .2em 1em;
+  color: white;
+}
 
 
 
