@@ -34382,3 +34382,1687 @@ ActionController::RoutingError (No route matches [GET] "/images/medium/missing.p
 
 
 Started GET "/assets/font-awesome/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2" for 127.0.0.1 at 2015-07-31 12:30:13 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 12:49:38 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (35.8ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 2105ms (Views: 2089.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/scaffolds.self-9734e7ca9b6047f07063ef93142b6feaf863a0149c08be10d903e906e20f92dc.css?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/application.self-af19227f66350014bdee94d3cfd835e880b5febd46d5081bb596a68dfbd91364.css?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/movies.self-dc448ff99ab6a0232bcce01b523d19b6cdfd96ec03cfd5ef4037919098ec7c28.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.3ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (19.1ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (42.6ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2" for 127.0.0.1 at 2015-07-31 12:49:40 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 12:50:56 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1903ms (Views: 1902.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/scaffolds.self-2551f587a30069bd4a069a2e7d6d988efe74d20f92b5ee7212b748413adb2915.css?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/application.self-af19227f66350014bdee94d3cfd835e880b5febd46d5081bb596a68dfbd91364.css?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/movies.self-dc448ff99ab6a0232bcce01b523d19b6cdfd96ec03cfd5ef4037919098ec7c28.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.6ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (18.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (36.7ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2" for 127.0.0.1 at 2015-07-31 12:50:58 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 12:51:07 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (11.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1736ms (Views: 1735.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.self-c1b86827dc856c3a3c413b03552e411bb905fda40db37b3b2b6f4e3561646062.css?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/application.self-af19227f66350014bdee94d3cfd835e880b5febd46d5081bb596a68dfbd91364.css?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/movies.self-dc448ff99ab6a0232bcce01b523d19b6cdfd96ec03cfd5ef4037919098ec7c28.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.7ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (21.1ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (44.1ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2" for 127.0.0.1 at 2015-07-31 12:51:09 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 13:07:42 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 131ms (Views: 129.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 13:07:42 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.9ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (32.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 13:07:44 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (14.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 110ms (Views: 109.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 13:07:44 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.7ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (32.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 13:07:45 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.6ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 90ms (Views: 89.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 13:07:45 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (31.8ms)
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2015-07-31 13:07:47 -0400
+Processing by MoviesController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered movies/_form.html.erb (16.4ms)
+  Rendered movies/new.html.erb within layouts/application (17.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 134ms (Views: 114.2ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/movies" for 127.0.0.1 at 2015-07-31 13:07:56 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iYRfnnBunQZChjgLStl2MOPgalZ0SDkjtsdeCn328UNAsX1bHph9vOFmGXzSyxP+Vkwl/799gm0APfDWb3NsAQ==", "movie"=>{"title"=>"", "description"=>"", "movie_length"=>"", "director"=>"", "rating"=>"", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f38e31a24d0 @tempfile=#<Tempfile:/tmp/RackMultipart20150731-3833-7aw61v.jpg>, @original_filename="20150717_183040.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"movie[image]\"; filename=\"20150717_183040.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Movie"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Command :: file -b --mime '/tmp/596d60faec53283d9c04f0ea81e4a10720150731-3833-k53izr.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/596d60faec53283d9c04f0ea81e4a10720150731-3833-1p2qfqc.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/596d60faec53283d9c04f0ea81e4a10720150731-3833-1p2qfqc.jpg[0]'
+Command :: convert '/tmp/596d60faec53283d9c04f0ea81e4a10720150731-3833-1p2qfqc.jpg[0]' -auto-orient -resize "400x" -crop "400x600+0+55" +repage '/tmp/6ba2a815fe104a8c80df16b7439b523e20150731-3833-1h5tghg'
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/tmp/596d60faec53283d9c04f0ea81e4a10720150731-3833-olukar.jpg'
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered movies/_form.html.erb (6.9ms)
+  Rendered movies/new.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1092ms (Views: 113.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/movies" for 127.0.0.1 at 2015-07-31 13:08:39 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"95chlHDElIbzKeqf3a4/AAf+MHVBxRSy03ZboVB1NuQ+ogNRHjJ0PFDJy+hFvFrOslJ/3Irwr/xljPV9QvCrpg==", "movie"=>{"title"=>"Stuff", "description"=>"stuff", "movie_length"=>"stuff", "director"=>"stuff", "rating"=>"stufs"}, "commit"=>"Create Movie"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("title", "description", "movie_length", "director", "rating", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "Stuff"], ["description", "stuff"], ["movie_length", "stuff"], ["director", "stuff"], ["rating", "stufs"], ["created_at", "2015-07-31 17:08:39.418695"], ["updated_at", "2015-07-31 17:08:39.418695"]]
+  [1m[36m (234.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/movies/9
+Completed 302 Found in 239ms (ActiveRecord: 234.4ms)
+
+
+Started GET "/movies/9" for 127.0.0.1 at 2015-07-31 13:08:39 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mMovie Load (0.7ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" = ?  ORDER BY created_at DESC[0m  [["movie_id", 9]]
+  Rendered movies/show.html.erb within layouts/application (3.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered layouts/_header.html.erb (2.2ms)
+Completed 200 OK in 115ms (Views: 105.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 13:08:39 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.5ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (41.6ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.9ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.2ms)
+
+
+Started GET "/movies/9" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" = ?  ORDER BY created_at DESC  [["movie_id", 9]]
+  Rendered movies/show.html.erb within layouts/application (2.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_header.html.erb (2.6ms)
+Completed 200 OK in 113ms (Views: 111.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/application.self-af19227f66350014bdee94d3cfd835e880b5febd46d5081bb596a68dfbd91364.css?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/scaffolds.self-c1b86827dc856c3a3c413b03552e411bb905fda40db37b3b2b6f4e3561646062.css?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/movies.self-dc448ff99ab6a0232bcce01b523d19b6cdfd96ec03cfd5ef4037919098ec7c28.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 13:09:08 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (33.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 13:10:56 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (35.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 320ms (Views: 304.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 13:10:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.0ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.1ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (47.0ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (25.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (48.7ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2" for 127.0.0.1 at 2015-07-31 13:10:56 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 13:11:13 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (12.8ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 1779ms (Views: 1777.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/scaffolds.self-15e7098b37717b184577118f3a151c11df6b31dd3d7337fb6d8adb2c5fbf074d.css?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/application.self-af19227f66350014bdee94d3cfd835e880b5febd46d5081bb596a68dfbd91364.css?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/movies.self-dc448ff99ab6a0232bcce01b523d19b6cdfd96ec03cfd5ef4037919098ec7c28.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.0ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.8ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.0ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2" for 127.0.0.1 at 2015-07-31 13:11:15 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.8ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 165ms (Views: 163.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/application.self-af19227f66350014bdee94d3cfd835e880b5febd46d5081bb596a68dfbd91364.css?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/scaffolds.self-7853b4cc37194532147fdc7d1d04e3348bb7c76d94a5c73bc4b6262b5b56e3c1.css?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/movies.self-dc448ff99ab6a0232bcce01b523d19b6cdfd96ec03cfd5ef4037919098ec7c28.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.8ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (33.8ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2" for 127.0.0.1 at 2015-07-31 13:11:24 -0400
+
+
+Started GET "/movies/1" for 127.0.0.1 at 2015-07-31 13:48:09 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" = ?  ORDER BY created_at DESC[0m  [["movie_id", 1]]
+  Rendered movies/show.html.erb within layouts/application (5.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 86ms (Views: 82.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/star-on.png" for 127.0.0.1 at 2015-07-31 13:48:09 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/star-on.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.8ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.2ms)
+
+
+Started GET "/assets/star-off.png" for 127.0.0.1 at 2015-07-31 13:48:09 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/star-off.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.6ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.1ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.2ms)
+
+
+Started GET "/movies/1/reviews/new" for 127.0.0.1 at 2015-07-31 13:48:12 -0400
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered reviews/_form.html.erb (14.2ms)
+  Rendered reviews/new.html.erb within layouts/application (15.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 95ms (Views: 91.7ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/movies/1/reviews" for 127.0.0.1 at 2015-07-31 13:48:15 -0400
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jBiFUZuPZkzd5kPWd+aufk4iCRbaco3JvQ1M8p+hJGhFLaeU9XmG9n4GYqHv9Muw+45GvxFHNocL9+IujSS5Kg==", "review"=>{"rating"=>"", "comment"=>""}, "commit"=>"Create Review", "movie_id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered reviews/_form.html.erb (2.6ms)
+  Rendered reviews/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 90ms (Views: 87.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2015-07-31 13:48:19 -0400
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered movies/_form.html.erb (3.8ms)
+  Rendered movies/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 91ms (Views: 78.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 13:48:26 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 82ms (Views: 81.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 13:48:26 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.1ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.0ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.5ms)
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2015-07-31 13:49:04 -0400
+Processing by MoviesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered movies/_form.html.erb (3.1ms)
+  Rendered movies/new.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 77ms (Views: 73.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 13:49:07 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (12.6ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 81ms (Views: 80.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 13:49:07 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.1ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.8ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.8ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.6ms)
+
+
+Started GET "/movies/2" for 127.0.0.1 at 2015-07-31 13:49:08 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" = ?  ORDER BY created_at DESC  [["movie_id", 2]]
+  Rendered movies/show.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 89ms (Views: 88.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 13:49:16 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (14.3ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 101ms (Views: 100.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 13:49:16 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.7ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.1ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 13:50:08 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 95ms (Views: 93.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.self-7853b4cc37194532147fdc7d1d04e3348bb7c76d94a5c73bc4b6262b5b56e3c1.css?body=1" for 127.0.0.1 at 2015-07-31 13:50:08 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-31 13:50:08 -0400
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-31 13:50:08 -0400
+
+
+Started GET "/assets/application.self-af19227f66350014bdee94d3cfd835e880b5febd46d5081bb596a68dfbd91364.css?body=1" for 127.0.0.1 at 2015-07-31 13:50:08 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:08 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:08 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:08 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:08 -0400
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:08 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:08 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:08 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:08 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:08 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:08 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:09 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:09 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:09 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:09 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:09 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:09 -0400
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:09 -0400
+
+
+Started GET "/assets/movies.self-dc448ff99ab6a0232bcce01b523d19b6cdfd96ec03cfd5ef4037919098ec7c28.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:09 -0400
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:09 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-31 13:50:09 -0400
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 13:50:09 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.1ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.9ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (31.4ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2" for 127.0.0.1 at 2015-07-31 13:50:09 -0400
+
+
+Started GET "/movies/2" for 127.0.0.1 at 2015-07-31 13:55:21 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" = ?  ORDER BY created_at DESC[0m  [["movie_id", 2]]
+  Rendered movies/show.html.erb within layouts/application (3.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 74ms (Views: 72.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/2/reviews/new" for 127.0.0.1 at 2015-07-31 13:55:25 -0400
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"2"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered reviews/_form.html.erb (1.6ms)
+  Rendered reviews/new.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 69ms (Views: 67.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/movies/2/reviews" for 127.0.0.1 at 2015-07-31 13:55:28 -0400
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VCFzPxR3K3Alg5O1TFYVn1PHpmBu/yF/bAshorlFAZedFFH6eoHLyoZjssLURHBR5mvpyaXKmjHa8Y9+q8Cc1Q==", "review"=>{"rating"=>"", "comment"=>""}, "commit"=>"Create Review", "movie_id"=>"2"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered reviews/_form.html.erb (2.3ms)
+  Rendered reviews/new.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 74ms (Views: 69.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/2" for 127.0.0.1 at 2015-07-31 13:55:31 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" = ?  ORDER BY created_at DESC  [["movie_id", 2]]
+  Rendered movies/show.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 70ms (Views: 68.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2015-07-31 13:55:41 -0400
+Processing by MoviesController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered movies/_form.html.erb (1.8ms)
+  Rendered movies/new.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 87ms (Views: 85.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2015-07-31 13:55:44 -0400
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 94ms (Views: 92.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 13:55:46 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 101ms (Views: 98.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 13:55:46 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.6ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (28.0ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (48.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 14:44:18 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 83ms (Views: 81.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2015-07-31 14:44:18 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/cache/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/paulbamberg22/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/cache/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.9ms)
